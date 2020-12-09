@@ -1,0 +1,85 @@
+body {
+	background-color: rgba(252, 234, 239, 0.6);
+color: #F1DFC2;
+font-family: font-family: 'Playfair Display', serif;; 
+font-size: 18px; 
+}
+
+h1 {
+	color : black;
+	font-family: font-family: 'Playfair Display', serif;
+	font-size: 40px; 
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 32px; 
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4, p{ 
+font-size: 20px;
+ }
+h2,h3,h4,h5,li, p {
+	color: black; 
+}
+
+img {
+	width: 200px; 
+	weight : 200px;
+	border-radius: 100px; 
+}
+
+div {
+	text-align: center;
+	padding:30px;
+	margin:35px;
+	border-radius: 4px;
+	box-shadow: 0px 15px 35px rgba (50,50,93,.1)
+}
+
+
+@media (max-width : 5000px) {
+	.div {
+		width: 400px
+	}
+}
+
+@media (max-width: 760px) {
+	.div{
+		width: 600px
+	}
+}
+
+div#bandeau {
+
+	background:white;
+	}
+
+div#contenu1,div#contenu2, div#contenu3 {
+	background: white;  
+}
+
+
+
+div#piedpage {
+	background: white
+}
+a#endbutton {
+	background:  rgb(225, 161, 178); 
+	color: white;
+	border-radius: 4px; 
+	font-size: 30px; 
+	text-decoration: none;
+}
+
+a#endbutton:hover {
+	background-color: #0A66C2;
+}
+
+a {
+	text-decoration: none;
+}
